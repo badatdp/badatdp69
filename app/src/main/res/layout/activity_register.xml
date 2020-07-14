@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_background"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="141dp"
+        android:layout_height="154dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/quiz" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="FORM ĐĂNG KÝ"
+        android:textSize="25sp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_action_name"
+        android:id="@+id/et_email"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/xinxo_backgroung"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_password"
+        android:id="@+id/et_password"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/xinxo_backgroung"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:text="Hiển thị mật khẩu"
+        android:id="@+id/showpass"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_password"
+        android:id="@+id/et_repassword"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/xinxo_backgroung"
+        android:ems="10"
+        android:hint="Nhập lại mật khẩu"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="Hiển thị mật khẩu"
+        android:id="@+id/showpass2"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_action_name"
+        android:id="@+id/username"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/xinxo_backgroung"
+        android:ems="10"
+        android:hint="Nhập tên người dùng"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/xinxo_backgroung"
+        android:text="Đăng ký" />
+
+    <TextView
+        android:id="@+id/tv_dangnhap"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="770dp"
+        android:text="Bạn đã có tài khoản?Đăng nhập ngay!"
+        android:textColor="@color/red"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

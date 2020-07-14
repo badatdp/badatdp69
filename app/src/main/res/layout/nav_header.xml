@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_xinchao"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+        tools:text="Xin chào bạn,"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_email"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/com_facebook_blue"
+        tools:text="badatdp@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnprofile"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/com_facebook_blue"
+        android:text="Người dùng"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnsendtogmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/red"
+        android:text="Góp ý"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btndatgio"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/green"
+        android:text="Hẹn giờ"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:text="Đăng xuất"
+        android:textColor="@color/white" />
+</LinearLayout>

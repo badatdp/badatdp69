@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "405406214208",
+    "firebase_url": "https://nguyendat-30792.firebaseio.com",
+    "project_id": "nguyendat-30792",
+    "storage_bucket": "nguyendat-30792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405406214208:android:a5ff7c3b1bf3793aaa97a5",
+        "android_client_info": {
+          "package_name": "vn.huyld247.tracnghiemthpt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405406214208-b0i78khks5bpeks6gnv80ge111p53g93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpkZK7hq9oqlQzO1P3SNxsgZHxdcW4t0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405406214208-b0i78khks5bpeks6gnv80ge111p53g93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

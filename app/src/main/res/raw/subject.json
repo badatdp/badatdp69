@@ -1,0 +1,47 @@
+[
+  {
+    "name":"Lập trình Java",
+    "icon":"ic_math",
+    "src_exam":"ex_ltjava"
+  },
+  {
+    "name":"Vật Lý",
+    "icon":"ic_physical",
+    "src_exam":"ex_physical"
+  },
+  {
+    "name":"Hóa học",
+    "icon":"ic_chemical",
+    "src_exam":"ex_chemical"
+  },
+  {
+    "name":"Sinh học",
+    "icon":"ic_biological",
+    "src_exam":"ex_biological"
+  },
+  {
+    "name":"Lịch sử",
+    "icon":"ic_historical",
+    "src_exam":"ex_historical"
+  },
+  {
+    "name":"Địa lý",
+    "icon":"ic_geography",
+    "src_exam":"ex_geography"
+  },
+  {
+    "name":"Giáo dục công dân",
+    "icon":"ic_law",
+    "src_exam":"ex_law"
+  },
+  {
+    "name":"Tiếng anh",
+    "icon":"ic_law",
+    "src_exam":"ex_english"
+  },
+  {
+    "name":"Tin học",
+    "icon":"ic_law",
+    "src_exam":"ex_tinhoc"
+  }
+]

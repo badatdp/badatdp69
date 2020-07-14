@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="123dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="@dimen/margin_medium">
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="@dimen/margin_medium"
+        android:orientation="vertical"
+        android:background="@drawable/xinxo_backgroung"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/itemSjIcon"
+            android:src="@drawable/ic_law"
+            android:layout_gravity="center"
+            android:layout_width="33dp"
+            android:layout_height="33dp" />
+        <View
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:id="@+id/itemSjName"
+            android:gravity="center"
+            tools:text="Giáo dục công dân"
+            android:lines="2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
